@@ -7,5 +7,6 @@ addons:
   packages:
     - cmake
 before_script:
- - cmake .
+ - brew install qt5
+ - cmake --build .
 
