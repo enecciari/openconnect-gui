@@ -11,6 +11,7 @@ before_script:
  - brew install openconnect
  - brew install make
  - brew link qt5 --force
+ - git tag v1.5.4_preview
  - mkdir build-release
  - cd build-release
  - Qt5_DIR=/usr/local/opt/qt5/lib/cmake/Qt5 cmake -DCMAKE_BUILD_TYPE=Release ..
