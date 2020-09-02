@@ -7,6 +7,7 @@ compiler:
 addons:
   packages:
     - cmake
+install: make
 before_script:
  - brew install qt5
  - brew install openconnect
@@ -16,5 +17,4 @@ before_script:
  - mkdir build-release
  - cd build-release
  - Qt5_DIR=/usr/local/opt/qt5/lib/cmake/Qt5 cmake -DCMAKE_BUILD_TYPE=Release ..
- - make
 
