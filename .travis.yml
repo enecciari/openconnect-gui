@@ -1,0 +1,11 @@
+os: osx
+osx_image: xcode12u
+compiler:
+  - clang
+  - gcc
+addons:
+  packages:
+    - cmake
+before_script:
+ - cmake .
+
