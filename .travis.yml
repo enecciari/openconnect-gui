@@ -13,5 +13,6 @@ before_script:
  - brew link qt5 --force
  - mkdir build-release
  - cd build-release
- - Qt5_DIR=/usr/local/opt/qt5/lib/cmake/Qt5 cmake -DCMAKE_BUILD_TYPE=Release ..ù - make
+ - Qt5_DIR=/usr/local/opt/qt5/lib/cmake/Qt5 cmake -DCMAKE_BUILD_TYPE=Release ..
+ - make
 
